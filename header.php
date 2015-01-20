@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Intern Exam</title>
+        <title>Frost theme</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,7 +38,17 @@
 
                                     <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                  <ul class="nav navbar-nav top-menu2">
+                                  <?php 
+                                  
+                                  $defaults = array(
+                                        'theme_location' => 'header-menu',                                       
+                                        'container'       => false,                                        
+                                        'menu_class'      => 'nav navbar-nav top-menu2'                                                                         
+                                    );
+                                  
+                                  wp_nav_menu( $defaults );  
+                                  ?>
+<!--                                    <ul class="nav navbar-nav top-menu2">
                                       <li ><a href="#">HOME </a></li>
                                         <li><a href="#">SERVICES</a></li>
                                         <li><a href="#">PORTFOLIO</a></li>
@@ -46,7 +56,7 @@
                                         <li><a href="#">CONTACT</a></li>
                                         <li><a href="#">FEATURES</a></li>
                                         <li><a href="#" class="menu-last">BLOG</a></li>
-                                  </ul>
+                                  </ul>-->
                                 </div>  
                             </div>	
                         </nav>
