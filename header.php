@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes(); ?>>
     <head>
-        <title>Frost theme</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta charset="UTF-8">
+        <meta charset="<?php bloginfo( 'charset' ); ?>">
+        <title><?php wp_title('|', true, 'right'); ?></title>  
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+        <meta name="description" content="<?php bloginfo('description'); ?>" />
+        
         <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
         <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" media="all"/>
