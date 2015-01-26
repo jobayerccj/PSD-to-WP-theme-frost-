@@ -20,7 +20,7 @@
                     
                     <div class="col-lg-offset-2 col-lg-2 text-center" >
 
-                            <img src="<?php bloginfo('template_directory'); ?>/images/photography.jpg" alt=''>
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/photography.jpg" alt=''>
 
                             <hr style="width: 20%;"/>
                          <h5>PHOTOGRAPHY</h5>
@@ -31,7 +31,7 @@
                 
                     <div class="col-lg-2 text-center" >
 
-                        <img src="<?php bloginfo('template_directory'); ?>/images/web-design.jpg" alt=''>
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/web-design.jpg" alt=''>
 
                             <hr style="width: 20%;"/>
                          <h5>WEB DESIGN</h5>
@@ -41,7 +41,7 @@
 
                     <div class="col-lg-2 text-center" >
 
-                        <img src="<?php bloginfo('template_directory'); ?>/images/e-commerce.jpg" alt=''>
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/e-commerce.jpg" alt=''>
 
                             <hr style="width: 20%;"/>
                          <h5>E-COMMERCE</h5>
@@ -51,7 +51,7 @@
 
                     <div class="col-lg-2 text-center" >
 
-                        <img src="<?php bloginfo('template_directory'); ?>/images/sound-design.jpg" alt=''>
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/sound-design.jpg" alt=''>
 
                             <hr style="width: 20%;"/>
                          <h5>SOUND DESIGN</h5>
@@ -103,72 +103,72 @@
 
                         <div class="col-lg-3">
                             <div class=" pr_img" >
-                                <img src="<?php bloginfo('template_directory'); ?>/images/product1.jpg" alt=""/>
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/product1.jpg" alt=""/>
                             </div>
                         </div>
                         
                         <div class="col-lg-3">
                             <div class=" pr_img" >
-                                <img src="<?php bloginfo('template_directory'); ?>/images/product1.jpg" alt=""/>
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/product1.jpg" alt=""/>
                             </div>
                         </div>
                             
                         <div class="col-lg-3">
                             <div class=" pr_img" >
-                                <img src="<?php bloginfo('template_directory'); ?>/images/product1.jpg" alt=""/>
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/product1.jpg" alt=""/>
                             </div>
                         </div>
                             
                         <div class="col-lg-3">
                             <div class=" pr_img" >
-                                <img src="<?php bloginfo('template_directory'); ?>/images/product1.jpg" alt=""/>
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/product1.jpg" alt=""/>
                             </div>
                         </div>
                         
                         <div class="col-lg-3">
                             <div class=" pr_img" >
-                                <img src="<?php bloginfo('template_directory'); ?>/images/product1.jpg" alt=""/>
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/product1.jpg" alt=""/>
                             </div>
                         </div>
                         
                         <div class="col-lg-3">
                             <div class=" pr_img" >
-                                <img src="<?php bloginfo('template_directory'); ?>/images/product1.jpg" alt=""/>
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/product1.jpg" alt=""/>
                             </div>
                         </div>
                         
                         <div class="col-lg-3">
                             <div class=" pr_img" >
-                                <img src="<?php bloginfo('template_directory'); ?>/images/product1.jpg" alt=""/>
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/product1.jpg" alt=""/>
                             </div>
                         </div>
                         
                         <div class="col-lg-3">
                             <div class=" pr_img" >
-                                <img src="<?php bloginfo('template_directory'); ?>/images/product1.jpg" alt=""/>
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/product1.jpg" alt=""/>
                             </div>
                         </div>
                         <div class="col-lg-3">
                             <div class=" pr_img" >
-                                <img src="<?php bloginfo('template_directory'); ?>/images/product1.jpg" alt=""/>
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/product1.jpg" alt=""/>
                             </div>
                         </div>
                         
                         <div class="col-lg-3">
                             <div class=" pr_img">
-                                <img src="<?php bloginfo('template_directory'); ?>/images/product1.jpg" alt=""/>
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/product1.jpg" alt=""/>
                             </div>
                         </div>
                         
                         <div class="col-lg-3">
                             <div class=" pr_img">
-                                <img src="<?php bloginfo('template_directory'); ?>/images/product1.jpg" alt=""/>
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/product1.jpg" alt=""/>
                             </div>
                         </div>
                         
                         <div class="col-lg-3">
                             <div class=" pr_img">
-                                <img src="<?php bloginfo('template_directory'); ?>/images/product1.jpg" alt=""/>
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/product1.jpg" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -201,7 +201,7 @@
                     <a href="#" class="about_read">READ MORE</a>
                 </div>
                 <div class="col-lg-4">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/about1.jpg" alt="" >
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/about1.jpg" alt="" >
                 </div>            
             
         </div>
@@ -256,7 +256,7 @@
 
                 <div class="col-lg-12 team1 text-center">
                     <div class="col-lg-4 ">
-                        <img src="<?php bloginfo('template_directory'); ?>/images/team1.jpg" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/team1.jpg" alt="">
                         <div class="text-center">
                             <h5 class="text-uppercase team_inner_h">Connor Gibson</h5>
                             <a href="#">Interface Designer</a>
@@ -265,7 +265,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 ">
-                        <img src="<?php bloginfo('template_directory'); ?>/images/team1.jpg" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/team1.jpg" alt="">
                        <div class="text-center">
                         <h5 class="text-uppercase team_inner_h">Nikolas Brooten</h5>
                         <a href="#" >Web Developer</a>
@@ -274,7 +274,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 ">
-                        <img src="<?php bloginfo('template_directory'); ?>/images/team1.jpg" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/team1.jpg" alt="">
                       <div class="text-center">
                         <h5 class="text-uppercase team_inner_h">Barclay Widerski</h5>
                         <a href="#" >Photographer</a>
@@ -301,7 +301,7 @@
                          <!--Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                              <img src="<?php bloginfo('template_directory'); ?>/images/slider4.png" alt="...">
+                              <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/slider4.png" alt="...">
                             <div class="carousel-caption carousel-caption2">
                                 <p class="text-uppercase p_carousel"><span class="quote1">“</span> Vestibulum ligut praesent commodo cursus magna, consectetur et. 
                                   Cum socis natoque penatibus et magnis dis tellus parturient pharetra montes.�?</p>
@@ -309,7 +309,7 @@
                             </div>
                           </div>
                           <div class="item">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/slider4.png" alt="...">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/slider4.png" alt="...">
                             <div class="carousel-caption carousel-caption2">
                                 <p class="text-uppercase p_carousel"><span class="quote1">“</span> Vestibulum ligut praesent commodo cursus magna, consectetur et. 
                                   Cum socis natoque penatibus et magnis dis tellus parturient pharetra montes.�?</p>
@@ -318,7 +318,7 @@
                           </div>
 
                           <div class="item">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/slider4.png" alt="...">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/slider4.png" alt="...">
                             <div class="carousel-caption carousel-caption2">
                                 <p class="text-uppercase p_carousel"><span class="quote1">“ </span>Vestibulum ligut praesent commodo cursus magna, consectetur et. 
                                   Cum socis natoque penatibus et magnis dis tellus parturient pharetra montes.�?</p>

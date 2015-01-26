@@ -283,33 +283,3 @@ padding:1px 6px;
     background: url('images/contact3.png') no-repeat;
 }
 
-@media all and (max-width: 1199px) { /* screen size until 1200px */
-    body {
-        font-size: 1.2em; /* 1.5x default size */
-    }
-    
-    .navbar-default .navbar-nav > li > a{   
-            padding-top: 2.3em;
-        }
-    
-    .carousel-indicators1 {
-         bottom: 9.5em;
-    }
-    .carousel-caption2{
-            bottom: 8em;
-        }
-    
-    .carousel-arrow{
-        padding:1px 3px;
-    }
-}
-@media all and (max-width: 991px) { /* screen size until 1000px */
-    body {
-        font-size: .9em; /* 1.2x default size */
-        }
-        
-        .navbar-default .navbar-nav > li > a{   
-            padding-top: 3em;
-            padding-bottom: 2em;
-        }
-    }
